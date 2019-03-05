@@ -1,4 +1,6 @@
 module.exports = {
+
+
     devtool: 'eval',
     module: {
         rules: [

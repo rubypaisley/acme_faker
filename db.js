@@ -15,7 +15,6 @@ Product.belongsTo(Category);
 Category.hasMany(Product);
 
 
-
 const syncAndSeed = () => {
     return conn.sync({ force: true })
         .then(() => {
